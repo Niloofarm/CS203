@@ -1,2 +1,4 @@
 #Ignore all Java class files 
 *.class
+/W1D2/nbproject/private/
+/W1D2/build/
