@@ -17,3 +17,5 @@ public calss phrase-o-matic {
 		String Phrase = wordsOne[rand1] + " " + wordsTwo[rand2] + " " + wordsThree[rand3];
 		
 		System.out.println("what I need is a phrase" + Phrase);
+	}
+}
