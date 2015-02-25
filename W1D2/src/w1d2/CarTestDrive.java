@@ -17,21 +17,17 @@ public class CarTestDrive {
         mycar.moveLeft();
         mycar.moveRight();
        
-        mycar.printLocation(5, 6);
-        
-            
-     
-                 
+        mycar.printLocation();
     
                 
-    
+   
         
         Car hercar = new Car();
         hercar.moveRight();
         hercar.moveLeft();
         hercar.moveUp();
         hercar.moveDown();
-        hercar.printLocation(7, 8);
+        hercar.printLocation();
         
         
     }
