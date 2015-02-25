@@ -10,8 +10,8 @@ package w1d2;
  * @author mofrad
  */
 public class Car {
-    private int x ;
-    private int y ;
+    private int x = 0;
+    private int y = 0;
     
     void moveRight() {
         x+= 1;
@@ -20,16 +20,16 @@ public class Car {
         x+= 1;
     }
     void moveUp(){
-        y+=1;
+       y+=1;
       
     }
     void moveDown(){
-        y+=1;
+       y+=1;
     }
-    void printLocation(int x, int y){
+    void printLocation(){
         this.x = x;
         this.y = y;
-        System.out.println("This is the location");
+        System.out.print(int x, int y);
        
     }
 }
