@@ -13,18 +13,18 @@ public class Car {
     private int x ;
     private int y ;
     
-    void moveRight() {
+    void moveRight(int x) {
         x+= 1;
     }    
-    void moveLeft() {
-        x+= 1;
+    void moveLeft(int y ) {
+        x+= -1;
     }
-    void moveUp(){
+    void moveUp(int x){
         y+=1;
       
     }
-    void moveDown(){
-        y+=1;
+    void moveDown(int y){
+        y+=-1;
     }
     void printLocation(int x, int y){
         this.x = x;
@@ -36,4 +36,4 @@ public class Car {
         
     
     
-}
+
